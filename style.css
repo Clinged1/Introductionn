@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh; 
+  font-family: Roboto;
+  background-image: url("https://images.unsplash.com/photo-1545193544-312983719627?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  align-items: center;
+  flex-direction: column;
+}
+
+.snow {
+    width: 450px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 280px;
+}
+
+.image {
+  display: inline-block;
+  padding-bottom: 0px;
+}
+
+.text {
+  display: inline-block;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 90%;
+  border-radius: 10px;
+  color: white;
+  justify-content: middle;
+}
+
+
+.touch {
+  transition: 1s;
+}
+
+.touch:hover {
+  color: #eb4d4b;
+}
+
+.myName {
+   transition: 1s;
+}
+
+.myName:hover {
+  color: #f9ca24;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.para1 {
+  transition: 1s;
+}
+
+.para1:hover {
+  font-style: oblique;
+  font-family: montserrat;
+  color: #2bcbba;
+  font-size: 25px;
+  font-weight: 700px;
+
+}
+
+
+.bottom {
+  transition: 1s;
+}
+
+.bottom:hover {
+  color: #badc58;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.date {
+  transition: 1s;
+}
+
+.date:hover {
+  font-family: Raleway;
+  font-size: 30px;
+  color: #f0932b;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  color: white;
+  
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #fed330;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
